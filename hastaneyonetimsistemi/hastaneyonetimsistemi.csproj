@@ -59,11 +59,47 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDoktorBilgiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoktorBilgiDuzenle.Designer.cs">
+      <DependentUpon>FrmDoktorBilgiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDoktorDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoktorDetay.Designer.cs">
+      <DependentUpon>FrmDoktorDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDoktorGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoktorGiris.Designer.cs">
+      <DependentUpon>FrmDoktorGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDuyurlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDuyurlar.Designer.cs">
+      <DependentUpon>FrmDuyurlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmHastaDetay.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmHastaDetay.Designer.cs">
       <DependentUpon>FrmHastaDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSekreter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSekreter.Designer.cs">
+      <DependentUpon>FrmSekreter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSekreterDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSekreterDetay.Designer.cs">
+      <DependentUpon>FrmSekreterDetay.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmUyeKayit.cs">
       <SubType>Form</SubType>
@@ -82,8 +118,26 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoktorBilgiDuzenle.resx">
+      <DependentUpon>FrmDoktorBilgiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoktorDetay.resx">
+      <DependentUpon>FrmDoktorDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoktorGiris.resx">
+      <DependentUpon>FrmDoktorGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDuyurlar.resx">
+      <DependentUpon>FrmDuyurlar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmHastaDetay.resx">
       <DependentUpon>FrmHastaDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSekreter.resx">
+      <DependentUpon>FrmSekreter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSekreterDetay.resx">
+      <DependentUpon>FrmSekreterDetay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUyeKayit.resx">
       <DependentUpon>FrmUyeKayit.cs</DependentUpon>
@@ -91,12 +145,21 @@
     <EmbeddedResource Include="hastagiris.resx">
       <DependentUpon>hastagiris.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\FrmBilgiDuzenle.resx">
+      <DependentUpon>FrmBilgiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\FrmBilgiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\FrmBilgiDuzenle.Designer.cs">
+      <DependentUpon>FrmBilgiDuzenle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>

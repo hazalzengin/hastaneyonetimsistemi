@@ -69,7 +69,8 @@ namespace hastaneyonetimsistemi
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(441, 236);
+            this.linkLabel1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabel1.Location = new System.Drawing.Point(418, 234);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(51, 17);
             this.linkLabel1.TabIndex = 4;
@@ -79,7 +80,7 @@ namespace hastaneyonetimsistemi
             // btnGiris
             // 
             this.btnGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGiris.Location = new System.Drawing.Point(252, 326);
+            this.btnGiris.Location = new System.Drawing.Point(202, 291);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(132, 49);
             this.btnGiris.TabIndex = 6;
