@@ -137,6 +137,7 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.label1);
             this.Name = "FrmDoktorBilgiDüzenlecs";
             this.Text = "FrmDoktorBilgiDüzenlecs";
+            this.Load += new System.EventHandler(this.FrmDoktorBilgiDüzenlecs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

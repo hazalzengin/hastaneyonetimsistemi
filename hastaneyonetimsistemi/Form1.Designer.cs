@@ -50,6 +50,7 @@ namespace hastaneyonetimsistemi
             this.button1.Size = new System.Drawing.Size(314, 180);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -60,6 +61,7 @@ namespace hastaneyonetimsistemi
             this.button2.Size = new System.Drawing.Size(306, 180);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -70,6 +72,7 @@ namespace hastaneyonetimsistemi
             this.button3.Size = new System.Drawing.Size(302, 180);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -127,6 +130,7 @@ namespace hastaneyonetimsistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1292, 646);
             this.Controls.Add(this.label4);
@@ -139,7 +143,7 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Zengin Hospital";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

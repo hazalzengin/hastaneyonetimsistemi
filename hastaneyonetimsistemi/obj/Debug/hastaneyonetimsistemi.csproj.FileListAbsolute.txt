@@ -46,3 +46,16 @@ C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debu
 C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
 C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.hastagiris.resources
 C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.csproj.CopyComplete
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmDoktorBilgiDüzenlecs.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmDoktorDetay.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmDoktorGiris.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmDuyurlar.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmHastaDetay.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmSekreter.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmSekreterDetay.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmUyeKayit.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.Properties.FrmBilgiDuzenle.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.exe.licenses
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmBrans.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmDoktorPaneli.resources
+C:\Users\ilker\source\repos\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmRandevuListesi.resources

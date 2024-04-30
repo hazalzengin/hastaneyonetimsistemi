@@ -64,7 +64,8 @@ namespace hastaneyonetimsistemi
             this.txtSifre.Multiline = true;
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(195, 26);
-            this.txtSifre.TabIndex = 3;
+            this.txtSifre.TabIndex = 2;
+            this.txtSifre.UseSystemPasswordChar = true;
             // 
             // linkLabel1
             // 
@@ -76,6 +77,7 @@ namespace hastaneyonetimsistemi
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Üye Ol";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // btnGiris
             // 
@@ -86,6 +88,7 @@ namespace hastaneyonetimsistemi
             this.btnGiris.TabIndex = 6;
             this.btnGiris.Text = "Giriş Yap";
             this.btnGiris.UseVisualStyleBackColor = true;
+            this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
             // 
             // label3
             // 
@@ -103,12 +106,14 @@ namespace hastaneyonetimsistemi
             this.maskedTextBox1.Mask = "00000000000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(172, 22);
-            this.maskedTextBox1.TabIndex = 8;
+            this.maskedTextBox1.TabIndex = 1;
             // 
             // hastagiris
             // 
+            this.AcceptButton = this.btnGiris;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(652, 443);
             this.Controls.Add(this.maskedTextBox1);
@@ -120,6 +125,7 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.label1);
             this.Name = "hastagiris";
             this.Text = "hastagiris";
+            this.Load += new System.EventHandler(this.hastagiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

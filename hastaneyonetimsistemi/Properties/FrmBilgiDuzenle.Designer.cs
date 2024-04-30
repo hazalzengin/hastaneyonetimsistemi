@@ -184,6 +184,7 @@ namespace hastaneyonetimsistemi.Properties
             this.Controls.Add(this.label1);
             this.Name = "FrmBilgiDuzenle";
             this.Text = "Bilgi";
+            this.Load += new System.EventHandler(this.FrmBilgiDuzenle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

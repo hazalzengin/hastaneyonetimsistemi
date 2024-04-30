@@ -100,7 +100,7 @@ namespace hastaneyonetimsistemi
             this.maskedTextBox1.Mask = "(999) 000-0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(150, 22);
-            this.maskedTextBox1.TabIndex = 5;
+            this.maskedTextBox1.TabIndex = 4;
             // 
             // maskedTextBox2
             // 
@@ -108,21 +108,21 @@ namespace hastaneyonetimsistemi
             this.maskedTextBox2.Mask = "00000000000";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(150, 22);
-            this.maskedTextBox2.TabIndex = 6;
+            this.maskedTextBox2.TabIndex = 3;
             // 
             // txtad
             // 
             this.txtad.Location = new System.Drawing.Point(245, 46);
             this.txtad.Name = "txtad";
             this.txtad.Size = new System.Drawing.Size(150, 22);
-            this.txtad.TabIndex = 7;
+            this.txtad.TabIndex = 1;
             // 
             // txtsoyad
             // 
             this.txtsoyad.Location = new System.Drawing.Point(245, 92);
             this.txtsoyad.Name = "txtsoyad";
             this.txtsoyad.Size = new System.Drawing.Size(150, 22);
-            this.txtsoyad.TabIndex = 8;
+            this.txtsoyad.TabIndex = 2;
             // 
             // comboBox1
             // 
@@ -133,7 +133,7 @@ namespace hastaneyonetimsistemi
             this.comboBox1.Location = new System.Drawing.Point(239, 334);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(156, 24);
-            this.comboBox1.TabIndex = 9;
+            this.comboBox1.TabIndex = 6;
             // 
             // lblcinsiyet
             // 
@@ -150,7 +150,7 @@ namespace hastaneyonetimsistemi
             this.txtsifre.Location = new System.Drawing.Point(245, 267);
             this.txtsifre.Name = "txtsifre";
             this.txtsifre.Size = new System.Drawing.Size(150, 22);
-            this.txtsifre.TabIndex = 11;
+            this.txtsifre.TabIndex = 5;
             // 
             // btnkayit
             // 
@@ -161,11 +161,14 @@ namespace hastaneyonetimsistemi
             this.btnkayit.TabIndex = 12;
             this.btnkayit.Text = "Kayıt Ol";
             this.btnkayit.UseVisualStyleBackColor = true;
+            this.btnkayit.Click += new System.EventHandler(this.btnkayit_Click);
             // 
             // FrmUyeKayit
             // 
+            this.AcceptButton = this.btnkayit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(577, 512);
             this.Controls.Add(this.btnkayit);
@@ -182,7 +185,8 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.lblsoyad);
             this.Controls.Add(this.lblname);
             this.Name = "FrmUyeKayit";
-            this.Text = "FrmUyeKayit";
+            this.Text = "Hasta Kayıt";
+            this.Load += new System.EventHandler(this.FrmUyeKayit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

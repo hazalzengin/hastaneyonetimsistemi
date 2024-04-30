@@ -17,6 +17,25 @@ namespace hastaneyonetimsistemi
             InitializeComponent();
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmDoktorGiris doktorGiris = new FrmDoktorGiris();
+            doktorGiris.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            hastagiris hastagiris = new hastagiris();
+            hastagiris.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmSekreter sekreter = new FrmSekreter();
+            sekreter.Show();
+            this.Hide();
+        }
     }
 }

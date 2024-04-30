@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace hastaneyonetimsistemi.Properties
+namespace hastaneyonetimsistemi
 {
-    public partial class FrmBilgiDuzenle : Form
+    public partial class FrmBrans : Form
     {
-        public FrmBilgiDuzenle()
+        public FrmBrans()
         {
             InitializeComponent();
-        }
-
-        private void FrmBilgiDuzenle_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
