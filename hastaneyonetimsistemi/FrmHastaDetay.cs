@@ -84,7 +84,10 @@ namespace hastaneyonetimsistemi
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
+            FrmBilgiDuzenle bilgiDuzenle = new FrmBilgiDuzenle();
+            bilgiDuzenle.TC = lblTc.Text;
+            bilgiDuzenle.Show();
+  
 
         }
     }

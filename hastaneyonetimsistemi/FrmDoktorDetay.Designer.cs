@@ -30,23 +30,23 @@ namespace hastaneyonetimsistemi
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnbilgi = new System.Windows.Forms.Button();
-            this.btninternet = new System.Windows.Forms.Button();
-            this.btnduyuru = new System.Windows.Forms.Button();
             this.btncikis = new System.Windows.Forms.Button();
+            this.btnduyuru = new System.Windows.Forms.Button();
+            this.btninternet = new System.Windows.Forms.Button();
+            this.btnbilgi = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -68,23 +68,14 @@ namespace hastaneyonetimsistemi
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Doktor Bilgi";
             // 
-            // label1
+            // label4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(58, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "TC NO:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(170, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "000000000";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(181, 98);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(115, 23);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "hazal zengin";
             // 
             // label3
             // 
@@ -95,14 +86,23 @@ namespace hastaneyonetimsistemi
             this.label3.TabIndex = 2;
             this.label3.Text = "Ad Soyad:";
             // 
-            // label4
+            // label2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(200, 103);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 23);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "hazal zengin";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(170, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "000000000";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(58, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "TC NO:";
             // 
             // groupBox2
             // 
@@ -114,6 +114,14 @@ namespace hastaneyonetimsistemi
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Randevu Detay";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(6, 24);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(438, 243);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "";
             // 
             // groupBox3
             // 
@@ -129,6 +137,17 @@ namespace hastaneyonetimsistemi
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Randevu Detay";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 26);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(667, 689);
+            this.dataGridView1.TabIndex = 3;
             // 
             // label9
             // 
@@ -166,25 +185,6 @@ namespace hastaneyonetimsistemi
             this.label12.TabIndex = 0;
             this.label12.Text = "TC NO:";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 26);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(667, 689);
-            this.dataGridView1.TabIndex = 3;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(6, 24);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(438, 243);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.btncikis);
@@ -198,25 +198,15 @@ namespace hastaneyonetimsistemi
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "groupBox4";
             // 
-            // btnbilgi
+            // btncikis
             // 
-            this.btnbilgi.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnbilgi.Location = new System.Drawing.Point(24, 21);
-            this.btnbilgi.Name = "btnbilgi";
-            this.btnbilgi.Size = new System.Drawing.Size(131, 46);
-            this.btnbilgi.TabIndex = 0;
-            this.btnbilgi.Text = "Bilgi Düzenle";
-            this.btnbilgi.UseVisualStyleBackColor = true;
-            // 
-            // btninternet
-            // 
-            this.btninternet.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btninternet.Location = new System.Drawing.Point(24, 83);
-            this.btninternet.Name = "btninternet";
-            this.btninternet.Size = new System.Drawing.Size(131, 45);
-            this.btninternet.TabIndex = 1;
-            this.btninternet.Text = "Internet";
-            this.btninternet.UseVisualStyleBackColor = true;
+            this.btncikis.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btncikis.Location = new System.Drawing.Point(174, 83);
+            this.btncikis.Name = "btncikis";
+            this.btncikis.Size = new System.Drawing.Size(122, 45);
+            this.btncikis.TabIndex = 3;
+            this.btncikis.Text = "Çıkış";
+            this.btncikis.UseVisualStyleBackColor = true;
             // 
             // btnduyuru
             // 
@@ -228,15 +218,25 @@ namespace hastaneyonetimsistemi
             this.btnduyuru.Text = "Duyurular";
             this.btnduyuru.UseVisualStyleBackColor = true;
             // 
-            // btncikis
+            // btninternet
             // 
-            this.btncikis.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btncikis.Location = new System.Drawing.Point(174, 83);
-            this.btncikis.Name = "btncikis";
-            this.btncikis.Size = new System.Drawing.Size(122, 45);
-            this.btncikis.TabIndex = 3;
-            this.btncikis.Text = "Çıkış";
-            this.btncikis.UseVisualStyleBackColor = true;
+            this.btninternet.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btninternet.Location = new System.Drawing.Point(24, 83);
+            this.btninternet.Name = "btninternet";
+            this.btninternet.Size = new System.Drawing.Size(131, 45);
+            this.btninternet.TabIndex = 1;
+            this.btninternet.Text = "Internet";
+            this.btninternet.UseVisualStyleBackColor = true;
+            // 
+            // btnbilgi
+            // 
+            this.btnbilgi.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnbilgi.Location = new System.Drawing.Point(24, 21);
+            this.btnbilgi.Name = "btnbilgi";
+            this.btnbilgi.Size = new System.Drawing.Size(131, 46);
+            this.btnbilgi.TabIndex = 0;
+            this.btnbilgi.Text = "Bilgi Düzenle";
+            this.btnbilgi.UseVisualStyleBackColor = true;
             // 
             // FrmDoktorDetay
             // 

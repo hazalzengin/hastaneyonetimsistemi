@@ -115,3 +115,9 @@ C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\o
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.csproj.CopyComplete
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.exe
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.pdb
+C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\DevExpress.Data.v19.1.dll
+C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\DevExpress.Utils.v19.1.dll
+C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmBilgiDuzenle.resources

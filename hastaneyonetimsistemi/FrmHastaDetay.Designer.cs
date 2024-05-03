@@ -35,6 +35,7 @@ namespace hastaneyonetimsistemi
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -46,7 +47,6 @@ namespace hastaneyonetimsistemi
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -74,9 +74,9 @@ namespace hastaneyonetimsistemi
             this.lbladsoyad.AutoSize = true;
             this.lbladsoyad.Location = new System.Drawing.Point(158, 133);
             this.lbladsoyad.Name = "lbladsoyad";
-            this.lbladsoyad.Size = new System.Drawing.Size(115, 23);
+            this.lbladsoyad.Size = new System.Drawing.Size(65, 23);
             this.lbladsoyad.TabIndex = 3;
-            this.lbladsoyad.Text = "hazal znegin";
+            this.lbladsoyad.Text = "namee";
             // 
             // lblTc
             // 
@@ -123,6 +123,18 @@ namespace hastaneyonetimsistemi
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Randevu Paneli:";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabel1.Location = new System.Drawing.Point(6, 353);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(171, 23);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Bilgilerini  Düzenle";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(101, 286);
@@ -137,7 +149,7 @@ namespace hastaneyonetimsistemi
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(117, 95);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 31);
+            this.comboBox2.Size = new System.Drawing.Size(146, 31);
             this.comboBox2.TabIndex = 6;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
@@ -146,7 +158,7 @@ namespace hastaneyonetimsistemi
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(117, 43);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 31);
+            this.comboBox1.Size = new System.Drawing.Size(146, 31);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -229,18 +241,6 @@ namespace hastaneyonetimsistemi
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(649, 349);
             this.dataGridView2.TabIndex = 0;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel1.Location = new System.Drawing.Point(6, 353);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(171, 23);
-            this.linkLabel1.TabIndex = 7;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Bilgilerini  Düzenle";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // FrmHastaDetay
             // 
