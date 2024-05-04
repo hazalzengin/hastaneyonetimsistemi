@@ -102,7 +102,6 @@ C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\o
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmDoktorPaneli.resources
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmDuyurlar.resources
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmHastaDetay.resources
-C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmRandevuListesi.resources
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmSekreter.resources
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmSekreterDetay.resources
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmUyeKayit.resources
@@ -121,3 +120,4 @@ C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\b
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\DevExpress.Utils.v19.1.dll
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\bin\Debug\DevExpress.XtraEditors.v19.1.dll
 C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmBilgiDuzenle.resources
+C:\Users\Hazal\OneDrive\Masaüstü\hastaneyonetimsistemi\hastaneyonetimsistemi\obj\Debug\hastaneyonetimsistemi.FrmRandevular.resources

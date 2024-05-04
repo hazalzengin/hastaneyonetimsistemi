@@ -143,6 +143,7 @@ namespace hastaneyonetimsistemi
             this.btnekle.TabIndex = 10;
             this.btnekle.Text = "Ekle";
             this.btnekle.UseVisualStyleBackColor = false;
+            this.btnekle.Click += new System.EventHandler(this.btnekle_Click);
             // 
             // dataGridView1
             // 
@@ -153,6 +154,7 @@ namespace hastaneyonetimsistemi
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(389, 426);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // btnsil
             // 
@@ -164,6 +166,7 @@ namespace hastaneyonetimsistemi
             this.btnsil.TabIndex = 12;
             this.btnsil.Text = "Sil";
             this.btnsil.UseVisualStyleBackColor = false;
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
             // 
             // btnguncelle
             // 
@@ -175,6 +178,7 @@ namespace hastaneyonetimsistemi
             this.btnguncelle.TabIndex = 13;
             this.btnguncelle.Text = "Güncelle";
             this.btnguncelle.UseVisualStyleBackColor = false;
+            this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
             // 
             // FrmDoktorPaneli
             // 
@@ -198,6 +202,7 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.label1);
             this.Name = "FrmDoktorPaneli";
             this.Text = "FrmDoktorPaneli";
+            this.Load += new System.EventHandler(this.FrmDoktorPaneli_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

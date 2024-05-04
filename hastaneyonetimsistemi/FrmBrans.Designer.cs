@@ -61,6 +61,7 @@ namespace hastaneyonetimsistemi
             this.btnsil.TabIndex = 26;
             this.btnsil.Text = "Sil";
             this.btnsil.UseVisualStyleBackColor = false;
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
             // 
             // dataGridView1
             // 
@@ -71,6 +72,7 @@ namespace hastaneyonetimsistemi
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(389, 302);
             this.dataGridView1.TabIndex = 25;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // btnekle
             // 
@@ -82,6 +84,7 @@ namespace hastaneyonetimsistemi
             this.btnekle.TabIndex = 24;
             this.btnekle.Text = "Ekle";
             this.btnekle.UseVisualStyleBackColor = false;
+            this.btnekle.Click += new System.EventHandler(this.btnekle_Click);
             // 
             // txtsoyad
             // 
@@ -92,6 +95,7 @@ namespace hastaneyonetimsistemi
             // 
             // txtad
             // 
+            this.txtad.Enabled = false;
             this.txtad.Location = new System.Drawing.Point(157, 31);
             this.txtad.Name = "txtad";
             this.txtad.Size = new System.Drawing.Size(142, 22);
@@ -133,6 +137,7 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.label1);
             this.Name = "FrmBrans";
             this.Text = "FrmBrans";
+            this.Load += new System.EventHandler(this.FrmBrans_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

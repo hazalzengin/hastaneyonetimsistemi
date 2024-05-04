@@ -16,5 +16,10 @@ namespace hastaneyonetimsistemi
         {
             InitializeComponent();
         }
+
+        private void FrmDoktorDetay_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

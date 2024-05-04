@@ -250,6 +250,7 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmDoktorDetay";
             this.Text = "FrmDoktorDetay";
+            this.Load += new System.EventHandler(this.FrmDoktorDetay_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

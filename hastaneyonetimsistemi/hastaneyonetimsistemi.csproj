@@ -107,11 +107,11 @@
     <Compile Include="FrmHastaDetay.Designer.cs">
       <DependentUpon>FrmHastaDetay.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmRandevuListesi.cs">
+    <Compile Include="FrmRandevular.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmRandevuListesi.Designer.cs">
-      <DependentUpon>FrmRandevuListesi.cs</DependentUpon>
+    <Compile Include="FrmRandevular.Designer.cs">
+      <DependentUpon>FrmRandevular.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSekreter.cs">
       <SubType>Form</SubType>
@@ -167,8 +167,8 @@
     <EmbeddedResource Include="FrmHastaDetay.resx">
       <DependentUpon>FrmHastaDetay.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmRandevuListesi.resx">
-      <DependentUpon>FrmRandevuListesi.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRandevular.resx">
+      <DependentUpon>FrmRandevular.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSekreter.resx">
       <DependentUpon>FrmSekreter.cs</DependentUpon>

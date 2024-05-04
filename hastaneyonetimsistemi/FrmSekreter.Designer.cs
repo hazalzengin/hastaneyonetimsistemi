@@ -44,7 +44,7 @@ namespace hastaneyonetimsistemi
             this.maskedTextBox1.Mask = "00000000000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(172, 22);
-            this.maskedTextBox1.TabIndex = 15;
+            this.maskedTextBox1.TabIndex = 1;
             // 
             // label3
             // 
@@ -65,6 +65,7 @@ namespace hastaneyonetimsistemi
             this.btnGiris.TabIndex = 13;
             this.btnGiris.Text = "Giriş Yap";
             this.btnGiris.UseVisualStyleBackColor = true;
+            this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
             // 
             // linkLabel1
             // 
@@ -84,7 +85,7 @@ namespace hastaneyonetimsistemi
             this.txtSifre.Multiline = true;
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(195, 26);
-            this.txtSifre.TabIndex = 11;
+            this.txtSifre.TabIndex = 2;
             // 
             // label2
             // 
@@ -122,6 +123,7 @@ namespace hastaneyonetimsistemi
             this.Controls.Add(this.label1);
             this.Name = "FrmSekreter";
             this.Text = "FrmSekreter";
+            this.Load += new System.EventHandler(this.FrmSekreter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
